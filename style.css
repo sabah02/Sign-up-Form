@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffe1a8;
+}
+
+.bg {
+    width: fit-content;
+    margin: 0;
+}
+
+.img {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+
+.heading {
+    font-size: 2.5rem;
+}
+
+.bottom {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 700px;
+    height: 360px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: black;
+}
+
+#first-name:invalid, #last-name:invalid, #email:invalid, #phone:invalid, #password:invalid, #confirm-password:invalid {
+    border: 1.75px solid red;
+}
+
+#first-name:valid, #last-name:valid, #email:valid, #phone:valid, #password:valid, #confirm-password:valid {
+    border: 1.75px solid blue;
+}
+
+input {
+    height: 18px;
+    width: 240px;
+    font-size: 12px;
+    padding: 8px;
+    margin-bottom: 22px;
+    border-radius: 8px;
+}
+
+.outer-container {
+    color: white;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 42px;
+    /* align-items: center; */
+}
+
+#password {
+    display: block;
+    margin-bottom: 2px;
+}
+
+#confirm-password {
+    display: block;
+    margin-bottom: 2px;
+}
+
+span {
+    font-size: 16px;
+    color: black;
+    margin-top: -10;
+}
+
+.button-submit {
+    margin : 52px;
+    text-align: center;
+}
+
+.submit {
+    padding: 6px;
+    width: 180px;
+    height: 42px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #81b29a;
+    border: 0px solid;
+}
